@@ -1,0 +1,22 @@
+@-moz-document domain("adventofcode.com") {
+    body {
+        font-family: monospace;
+    }
+    pre,
+    code {
+        font-family: monospace;
+    }
+    .privboard-row {
+        font-size: 1.5em;
+    }
+    .privboard-star-unlocked {
+        visibility: hidden;
+    }
+    .privboard-star-both {
+        font-weight: bold;
+        color: #ffeebb;
+    }
+    .privboard-star-firstonly {
+        color: #aaaaaa;
+    }
+}

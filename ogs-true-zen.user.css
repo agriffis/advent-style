@@ -8,6 +8,9 @@
 @author      Aron Griffis
 ==/UserStyle== */
 @-moz-document url-prefix("https://online-go.com/demo/") {
+  .zen .center-col {
+    flex-basis: initial;
+  }
   .zen .right-col {
     display: none;
   }

@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name        Notion - Double header margins
+@namespace   agriffis
+@version     1.0.0
+@homepageURL https://github.com/agriffis/userstyles
+@updateURL   https://raw.githubusercontent.com/agriffis/userstyles/master/notion-header-margins.user.css
+@license     CC0
+@author      Aron Griffis
+==/UserStyle== */
+@-moz-document domain("notion.so") {
+  .notion-header-block {
+    margin-top: 4em !important; /* default: 2em */
+  }
+
+  .notion-sub_header-block {
+    margin-top: 2em !important; /* default: 1em */
+  }
+
+  .notion-sub_sub_header-block {
+    margin-top: 1em !important; /* default: 0.5em */
+  }
+}

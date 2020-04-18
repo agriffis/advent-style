@@ -7,7 +7,7 @@
 @license     CC0
 @author      Aron Griffis
 ==/UserStyle== */
-@-moz-document url-prefix("https://www.nytimes.com/crosswords") {
+@-moz-document regexp("^https://www.nytimes.com/(crosswords|puzzles).*") {
   div[aria-label='Wordplay Section'] {
     display: none;
   }

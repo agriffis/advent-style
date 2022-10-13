@@ -1,20 +1,23 @@
 /* ==UserStyle==
 @name        NY Times - Declutter Crossword
 @namespace   agriffis
-@version     1.0.0
+@version     1.1.0
 @homepageURL https://github.com/agriffis/userstyles
 @updateURL   https://raw.githubusercontent.com/agriffis/userstyles/master/nytimes-crossword-declutter.user.css
 @license     CC0
 @author      Aron Griffis
 ==/UserStyle== */
-@-moz-document regexp("^https://www.nytimes.com/(crosswords|puzzles).*") {
+@-moz-document regexp("^https://www.nytimes.com/(crosswords|games|puzzles).*") {
+  #top.ad {
+    display: none;
+  }
   div[aria-label='Wordplay Section'] {
     display: none;
   }
   div.pz-ad-box {
     display: none;
   }
-  div#root > div > div {
+  #root > div > div {
     justify-content: flex-start;
   }
 }

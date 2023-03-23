@@ -8,6 +8,12 @@
 @author      Aron Griffis
 ==/UserStyle== */
 @-moz-document regexp("^https://www.nytimes.com/(crosswords|games|puzzles).*") {
+  .top-sale-banner {
+    display: none;
+  }
+  .top-sale-banner-spacing {
+    margin-top: 0;
+  }
   #top.ad {
     display: none;
   }
